@@ -54,4 +54,66 @@
     STAssertEquals([origString count], [origString length], @"Expect %lu for string char count.", [origString length]);
 }
 
+- (void)testNSStringSplit {
+    NSString *origString = @"This is . a simple, and dumb,. text . nun-sense ;for testing. ";
+    NSUInteger count;
+    
+    count = [[origString split:@",."] count];
+    STAssertEquals(count, (NSUInteger)7,@"Expect return an array with 7 members, but get %lu", count);
+    count = [[origString split:@",." rule:HFSplitRuleWhole] count];
+    STAssertEquals(count, (NSUInteger)2,@"Expect return an array with 2 members, but get %lu.", count);
+    count = [[origString split:@",." rule:HFSplitRuleAny] count];
+    STAssertEquals(count, (NSUInteger)7,@"Expect return an array with 7 members, but get %lu.", count);
+    
+    count = [[origString split:@",.;"] count];
+    STAssertEquals(count, (NSUInteger)8,@"Expect return an array with 8 members, but get %lu.", count);
+    count = [[origString split:@",.;" rule:HFSplitRuleWhole] count];
+    STAssertEquals(count, (NSUInteger)1,@"Expect return an array with 1 members, but get %lu.", count);
+    count = [[origString split:@",.;" rule:HFSplitRuleAny] count];
+    STAssertEquals(count, (NSUInteger)8,@"Expect return an array with 8 members, but get %lu.", count);
+}
+
+- (void)testNSStringPathOperations {
+    NSString *path = @"/System/Library/Extensions/SomeExtension.kext";
+    
+    NSString *basename = [path baseName];
+    STAssertEqualObjects(basename, @"SomeExtension.kext", @"Expect SomeExtension.kext, but get %@", basename);
+    
+    basename = [path baseNameWithoutExtension];
+    STAssertEqualObjects(basename, @"SomeExtension", @"Expect SomeExtensiont, but get %@", basename);
+    
+    NSString *dirname = [path dirName];
+    STAssertEqualObjects(dirname, @"/System/Library/Extensions", @"Expect /System/Library/Extensions, but get %@", dirname);
+}
+
+- (void)testNSStringCharStringAtIndex {
+    NSString *origString = @"The Quick Brown Fox Jumps Over The Lazy Dog";
+    NSString *charString = [origString charStringAtIndex:1];
+    STAssertEqualObjects(charString, @"h", @"Expect 'h', but get '%@'", charString);
+}
+
+- (void)testNSStringBlankString {
+    NSString *emptyString =  @"";
+    NSString *blankString = @" \n \t \t \n ";
+    NSString *nonBlankString = @".";
+    
+    STAssertTrue([emptyString isBlank], @"Expect YES, but get %@", ([emptyString isBlank] ? @"YES" : @"NO"));
+    STAssertTrue([blankString isBlank], @"Expect YES, but get %@", ([blankString isBlank] ? @"YES" : @"NO"));
+    STAssertFalse([nonBlankString isBlank], @"Expect NO, but get %@", ([nonBlankString isBlank] ? @"YES" : @"NO"));
+}
+
+- (void)testNSStringStrip {
+    NSString *origString = @" \n \tThis is a \n really boring \t string \t \n ";
+    
+    NSString *strippedString = [origString strip];
+    STAssertEqualObjects(strippedString, @"This is a \n really boring \t string", @"Expected string not match, get %@", strippedString);
+    
+    strippedString = [origString lstrip];
+    STAssertEqualObjects(strippedString, @"This is a \n really boring \t string \t \n ", @"Expected string not match, get %@", strippedString);
+    
+    strippedString = [origString rstrip];
+    STAssertEqualObjects(strippedString, @" \n \tThis is a \n really boring \t string", @"Expected string not match, get %@", strippedString);
+}
+
+
 @end

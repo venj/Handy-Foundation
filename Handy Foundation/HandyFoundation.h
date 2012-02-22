@@ -34,8 +34,8 @@ typedef enum {
 - (NSString *)baseNameWithoutExtension;
 - (NSString *)dirName;
 - (NSString *)charStringAtIndex:(NSUInteger)index;
-- (NSString *)strip;
 - (BOOL)isBlank;
+- (NSString *)strip;
 - (NSString *)lstrip;
 - (NSString *)rstrip;
 
