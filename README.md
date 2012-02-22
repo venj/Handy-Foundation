@@ -11,7 +11,7 @@ This addition is really Ruby-style and breaks some Cocoa Naming Convensions. It 
 License
 =======
 
-BSD License ([http://www.opensource.org/licenses/bsd-license.php](http://www.opensource.org/licenses/bsd-license.php))
+[BSD License](http://www.opensource.org/licenses/bsd-license.php)
 ------------------------------------------------------------------
 
 Copyright (c) 2012, venj
