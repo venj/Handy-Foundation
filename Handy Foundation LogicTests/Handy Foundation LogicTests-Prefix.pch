@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Handy Foundation LogicTests' target in the 'Handy Foundation LogicTests' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
