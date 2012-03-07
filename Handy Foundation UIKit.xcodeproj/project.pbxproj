@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25FDC94415072E2B00335C51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FDC94315072E2B00335C51 /* UIKit.framework */; };
+		25FDC94615072E2B00335C51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FDC94515072E2B00335C51 /* Foundation.framework */; };
+		25FDC94815072E2B00335C51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FDC94715072E2B00335C51 /* CoreGraphics.framework */; };
+		25FDC94E15072E2B00335C51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25FDC94C15072E2B00335C51 /* InfoPlist.strings */; };
+		25FDC95015072E2B00335C51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FDC94F15072E2B00335C51 /* main.m */; };
+		25FDC95415072E2B00335C51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FDC95315072E2B00335C51 /* AppDelegate.m */; };
+		25FDC95715072E2B00335C51 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FDC95515072E2B00335C51 /* MainStoryboard_iPhone.storyboard */; };
+		25FDC95A15072E2B00335C51 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FDC95815072E2B00335C51 /* MainStoryboard_iPad.storyboard */; };
+		25FDC95D15072E2B00335C51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FDC95C15072E2B00335C51 /* ViewController.m */; };
+		25FDC96515072E2B00335C51 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FDC96415072E2B00335C51 /* SenTestingKit.framework */; };
+		25FDC96615072E2B00335C51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FDC94315072E2B00335C51 /* UIKit.framework */; };
+		25FDC96715072E2B00335C51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FDC94515072E2B00335C51 /* Foundation.framework */; };
+		25FDC96F15072E2C00335C51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25FDC96D15072E2C00335C51 /* InfoPlist.strings */; };
+		25FDC97215072E2C00335C51 /* Handy_Foundation_UIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FDC97115072E2C00335C51 /* Handy_Foundation_UIKitTests.m */; };
+		25FDC98015072EC000335C51 /* HandyFoundation+UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FDC97F15072EC000335C51 /* HandyFoundation+UIKit.m */; };
+		25FDC98315072FAF00335C51 /* HandyFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FDC98215072FAF00335C51 /* HandyFoundation.m */; };
+		25FDC98415072FAF00335C51 /* HandyFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FDC98215072FAF00335C51 /* HandyFoundation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25FDC96815072E2C00335C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25FDC93615072E2B00335C51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25FDC93E15072E2B00335C51;
+			remoteInfo = "Handy Foundation UIKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25FDC93F15072E2B00335C51 /* Handy Foundation UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handy Foundation UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FDC94315072E2B00335C51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25FDC94515072E2B00335C51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25FDC94715072E2B00335C51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25FDC94B15072E2B00335C51 /* Handy Foundation UIKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Handy Foundation UIKit-Info.plist"; sourceTree = "<group>"; };
+		25FDC94D15072E2B00335C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25FDC94F15072E2B00335C51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25FDC95115072E2B00335C51 /* Handy Foundation UIKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Handy Foundation UIKit-Prefix.pch"; sourceTree = "<group>"; };
+		25FDC95215072E2B00335C51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25FDC95315072E2B00335C51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25FDC95615072E2B00335C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		25FDC95915072E2B00335C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		25FDC95B15072E2B00335C51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25FDC95C15072E2B00335C51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25FDC96315072E2B00335C51 /* Handy Foundation UIKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Handy Foundation UIKitTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FDC96415072E2B00335C51 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		25FDC96C15072E2C00335C51 /* Handy Foundation UIKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Handy Foundation UIKitTests-Info.plist"; sourceTree = "<group>"; };
+		25FDC96E15072E2C00335C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25FDC97015072E2C00335C51 /* Handy_Foundation_UIKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handy_Foundation_UIKitTests.h; sourceTree = "<group>"; };
+		25FDC97115072E2C00335C51 /* Handy_Foundation_UIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handy_Foundation_UIKitTests.m; sourceTree = "<group>"; };
+		25FDC97E15072EC000335C51 /* HandyFoundation+UIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HandyFoundation+UIKit.h"; sourceTree = "<group>"; };
+		25FDC97F15072EC000335C51 /* HandyFoundation+UIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HandyFoundation+UIKit.m"; sourceTree = "<group>"; };
+		25FDC98115072FAF00335C51 /* HandyFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HandyFoundation.h; path = "../Handy Foundation/HandyFoundation.h"; sourceTree = "<group>"; };
+		25FDC98215072FAF00335C51 /* HandyFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; name = HandyFoundation.m; path = "../Handy Foundation/HandyFoundation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25FDC93C15072E2B00335C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FDC94415072E2B00335C51 /* UIKit.framework in Frameworks */,
+				25FDC94615072E2B00335C51 /* Foundation.framework in Frameworks */,
+				25FDC94815072E2B00335C51 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FDC95F15072E2B00335C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FDC96515072E2B00335C51 /* SenTestingKit.framework in Frameworks */,
+				25FDC96615072E2B00335C51 /* UIKit.framework in Frameworks */,
+				25FDC96715072E2B00335C51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25FDC93415072E2B00335C51 = {
+			isa = PBXGroup;
+			children = (
+				25FDC94915072E2B00335C51 /* Handy Foundation UIKit */,
+				25FDC96A15072E2C00335C51 /* Handy Foundation UIKitTests */,
+				25FDC94215072E2B00335C51 /* Frameworks */,
+				25FDC94015072E2B00335C51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25FDC94015072E2B00335C51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25FDC93F15072E2B00335C51 /* Handy Foundation UIKit.app */,
+				25FDC96315072E2B00335C51 /* Handy Foundation UIKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25FDC94215072E2B00335C51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25FDC94315072E2B00335C51 /* UIKit.framework */,
+				25FDC94515072E2B00335C51 /* Foundation.framework */,
+				25FDC94715072E2B00335C51 /* CoreGraphics.framework */,
+				25FDC96415072E2B00335C51 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25FDC94915072E2B00335C51 /* Handy Foundation UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				25FDC98615072FD800335C51 /* App Template Code */,
+				25FDC98515072FBE00335C51 /* Foundation(Common) */,
+				25FDC97E15072EC000335C51 /* HandyFoundation+UIKit.h */,
+				25FDC97F15072EC000335C51 /* HandyFoundation+UIKit.m */,
+				25FDC94A15072E2B00335C51 /* Supporting Files */,
+			);
+			path = "Handy Foundation UIKit";
+			sourceTree = "<group>";
+		};
+		25FDC94A15072E2B00335C51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25FDC94B15072E2B00335C51 /* Handy Foundation UIKit-Info.plist */,
+				25FDC94C15072E2B00335C51 /* InfoPlist.strings */,
+				25FDC94F15072E2B00335C51 /* main.m */,
+				25FDC95115072E2B00335C51 /* Handy Foundation UIKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25FDC96A15072E2C00335C51 /* Handy Foundation UIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				25FDC97015072E2C00335C51 /* Handy_Foundation_UIKitTests.h */,
+				25FDC97115072E2C00335C51 /* Handy_Foundation_UIKitTests.m */,
+				25FDC96B15072E2C00335C51 /* Supporting Files */,
+			);
+			path = "Handy Foundation UIKitTests";
+			sourceTree = "<group>";
+		};
+		25FDC96B15072E2C00335C51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25FDC96C15072E2C00335C51 /* Handy Foundation UIKitTests-Info.plist */,
+				25FDC96D15072E2C00335C51 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25FDC98515072FBE00335C51 /* Foundation(Common) */ = {
+			isa = PBXGroup;
+			children = (
+				25FDC98115072FAF00335C51 /* HandyFoundation.h */,
+				25FDC98215072FAF00335C51 /* HandyFoundation.m */,
+			);
+			name = "Foundation(Common)";
+			sourceTree = "<group>";
+		};
+		25FDC98615072FD800335C51 /* App Template Code */ = {
+			isa = PBXGroup;
+			children = (
+				25FDC95215072E2B00335C51 /* AppDelegate.h */,
+				25FDC95315072E2B00335C51 /* AppDelegate.m */,
+				25FDC95515072E2B00335C51 /* MainStoryboard_iPhone.storyboard */,
+				25FDC95815072E2B00335C51 /* MainStoryboard_iPad.storyboard */,
+				25FDC95B15072E2B00335C51 /* ViewController.h */,
+				25FDC95C15072E2B00335C51 /* ViewController.m */,
+			);
+			name = "App Template Code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25FDC93E15072E2B00335C51 /* Handy Foundation UIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FDC97515072E2C00335C51 /* Build configuration list for PBXNativeTarget "Handy Foundation UIKit" */;
+			buildPhases = (
+				25FDC93B15072E2B00335C51 /* Sources */,
+				25FDC93C15072E2B00335C51 /* Frameworks */,
+				25FDC93D15072E2B00335C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Handy Foundation UIKit";
+			productName = "Handy Foundation UIKit";
+			productReference = 25FDC93F15072E2B00335C51 /* Handy Foundation UIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25FDC96215072E2B00335C51 /* Handy Foundation UIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FDC97815072E2C00335C51 /* Build configuration list for PBXNativeTarget "Handy Foundation UIKitTests" */;
+			buildPhases = (
+				25FDC95E15072E2B00335C51 /* Sources */,
+				25FDC95F15072E2B00335C51 /* Frameworks */,
+				25FDC96015072E2B00335C51 /* Resources */,
+				25FDC96115072E2B00335C51 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25FDC96915072E2C00335C51 /* PBXTargetDependency */,
+			);
+			name = "Handy Foundation UIKitTests";
+			productName = "Handy Foundation UIKitTests";
+			productReference = 25FDC96315072E2B00335C51 /* Handy Foundation UIKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25FDC93615072E2B00335C51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 25FDC93915072E2B00335C51 /* Build configuration list for PBXProject "Handy Foundation UIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25FDC93415072E2B00335C51;
+			productRefGroup = 25FDC94015072E2B00335C51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25FDC93E15072E2B00335C51 /* Handy Foundation UIKit */,
+				25FDC96215072E2B00335C51 /* Handy Foundation UIKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25FDC93D15072E2B00335C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FDC94E15072E2B00335C51 /* InfoPlist.strings in Resources */,
+				25FDC95715072E2B00335C51 /* MainStoryboard_iPhone.storyboard in Resources */,
+				25FDC95A15072E2B00335C51 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FDC96015072E2B00335C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FDC96F15072E2C00335C51 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25FDC96115072E2B00335C51 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25FDC93B15072E2B00335C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FDC95015072E2B00335C51 /* main.m in Sources */,
+				25FDC95415072E2B00335C51 /* AppDelegate.m in Sources */,
+				25FDC95D15072E2B00335C51 /* ViewController.m in Sources */,
+				25FDC98015072EC000335C51 /* HandyFoundation+UIKit.m in Sources */,
+				25FDC98315072FAF00335C51 /* HandyFoundation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FDC95E15072E2B00335C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FDC97215072E2C00335C51 /* Handy_Foundation_UIKitTests.m in Sources */,
+				25FDC98415072FAF00335C51 /* HandyFoundation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25FDC96915072E2C00335C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25FDC93E15072E2B00335C51 /* Handy Foundation UIKit */;
+			targetProxy = 25FDC96815072E2C00335C51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25FDC94C15072E2B00335C51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FDC94D15072E2B00335C51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25FDC95515072E2B00335C51 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FDC95615072E2B00335C51 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		25FDC95815072E2B00335C51 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FDC95915072E2B00335C51 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		25FDC96D15072E2C00335C51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FDC96E15072E2C00335C51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25FDC97315072E2C00335C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25FDC97415072E2C00335C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25FDC97615072E2C00335C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handy Foundation UIKit/Handy Foundation UIKit-Prefix.pch";
+				INFOPLIST_FILE = "Handy Foundation UIKit/Handy Foundation UIKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25FDC97715072E2C00335C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handy Foundation UIKit/Handy Foundation UIKit-Prefix.pch";
+				INFOPLIST_FILE = "Handy Foundation UIKit/Handy Foundation UIKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		25FDC97915072E2C00335C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Handy Foundation UIKit.app/Handy Foundation UIKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handy Foundation UIKit/Handy Foundation UIKit-Prefix.pch";
+				INFOPLIST_FILE = "Handy Foundation UIKitTests/Handy Foundation UIKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		25FDC97A15072E2C00335C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Handy Foundation UIKit.app/Handy Foundation UIKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handy Foundation UIKit/Handy Foundation UIKit-Prefix.pch";
+				INFOPLIST_FILE = "Handy Foundation UIKitTests/Handy Foundation UIKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25FDC93915072E2B00335C51 /* Build configuration list for PBXProject "Handy Foundation UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FDC97315072E2C00335C51 /* Debug */,
+				25FDC97415072E2C00335C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FDC97515072E2C00335C51 /* Build configuration list for PBXNativeTarget "Handy Foundation UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FDC97615072E2C00335C51 /* Debug */,
+				25FDC97715072E2C00335C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FDC97815072E2C00335C51 /* Build configuration list for PBXNativeTarget "Handy Foundation UIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FDC97915072E2C00335C51 /* Debug */,
+				25FDC97A15072E2C00335C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25FDC93615072E2B00335C51 /* Project object */;
+}

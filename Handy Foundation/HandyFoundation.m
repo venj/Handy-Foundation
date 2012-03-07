@@ -86,14 +86,7 @@
         return YES;
     }
     else {
-        NSCharacterSet *nonWhiteSpaces = [[NSCharacterSet whitespaceAndNewlineCharacterSet] invertedSet];
-        NSRange foundRange = [self rangeOfCharacterFromSet:nonWhiteSpaces];
-        if (foundRange.location == NSNotFound) {
-            return YES;
-        }
-        else {
-            return NO;
-        }
+        return [[self strip] length] == 0;
     }
 }
 
