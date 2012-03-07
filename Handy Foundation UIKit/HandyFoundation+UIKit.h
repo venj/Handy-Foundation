@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIColor(HandyFoundationUIKit)
-+ (UIColor *)roundedRectColor;
++ (UIColor *)roundedRectButtonColor;
 @end

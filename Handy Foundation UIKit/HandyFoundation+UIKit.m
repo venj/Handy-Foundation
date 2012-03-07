@@ -9,7 +9,7 @@
 #import "HandyFoundation+UIKit.h"
 
 @implementation UIColor (HandyFoundationUIKit)
-+ (UIColor *)roundedRectColor {
++ (UIColor *)roundedRectButtonColor {
     return [self colorWithRed:50/255. green:79/255. blue:133/255. alpha:1];
 }
 @end
