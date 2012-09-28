@@ -105,7 +105,6 @@
     NSMutableArray *components = [[self pathComponents] mutableCopy];
     [components removeLastObject];
     NSString *dirName = [NSString pathWithComponents:components];
-    [components release];
     return dirName;
 }
 

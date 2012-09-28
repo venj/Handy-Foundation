@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25F950E4161568170017FE5E /* UIElementGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F950E3161568170017FE5E /* UIElementGeometry.m */; };
+		25F950E5161568170017FE5E /* UIElementGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F950E3161568170017FE5E /* UIElementGeometry.m */; };
 		25FDC94415072E2B00335C51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FDC94315072E2B00335C51 /* UIKit.framework */; };
 		25FDC94615072E2B00335C51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FDC94515072E2B00335C51 /* Foundation.framework */; };
 		25FDC94815072E2B00335C51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FDC94715072E2B00335C51 /* CoreGraphics.framework */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25F950E2161568160017FE5E /* UIElementGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIElementGeometry.h; sourceTree = "<group>"; };
+		25F950E3161568170017FE5E /* UIElementGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIElementGeometry.m; sourceTree = "<group>"; };
 		25FDC93F15072E2B00335C51 /* Handy Foundation UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handy Foundation UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25FDC94315072E2B00335C51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		25FDC94515072E2B00335C51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,7 +64,7 @@
 		25FDC97E15072EC000335C51 /* HandyFoundation+UIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HandyFoundation+UIKit.h"; sourceTree = "<group>"; };
 		25FDC97F15072EC000335C51 /* HandyFoundation+UIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HandyFoundation+UIKit.m"; sourceTree = "<group>"; };
 		25FDC98115072FAF00335C51 /* HandyFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HandyFoundation.h; path = "../Handy Foundation/HandyFoundation.h"; sourceTree = "<group>"; };
-		25FDC98215072FAF00335C51 /* HandyFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; name = HandyFoundation.m; path = "../Handy Foundation/HandyFoundation.m"; sourceTree = "<group>"; };
+		25FDC98215072FAF00335C51 /* HandyFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HandyFoundation.m; path = "../Handy Foundation/HandyFoundation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				25FDC98515072FBE00335C51 /* Foundation(Common) */,
 				25FDC97E15072EC000335C51 /* HandyFoundation+UIKit.h */,
 				25FDC97F15072EC000335C51 /* HandyFoundation+UIKit.m */,
+				25F950E2161568160017FE5E /* UIElementGeometry.h */,
+				25F950E3161568170017FE5E /* UIElementGeometry.m */,
 				25FDC94A15072E2B00335C51 /* Supporting Files */,
 			);
 			path = "Handy Foundation UIKit";
@@ -294,6 +300,7 @@
 				25FDC95D15072E2B00335C51 /* ViewController.m in Sources */,
 				25FDC98015072EC000335C51 /* HandyFoundation+UIKit.m in Sources */,
 				25FDC98315072FAF00335C51 /* HandyFoundation.m in Sources */,
+				25F950E4161568170017FE5E /* UIElementGeometry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +310,7 @@
 			files = (
 				25FDC97215072E2C00335C51 /* Handy_Foundation_UIKitTests.m in Sources */,
 				25FDC98415072FAF00335C51 /* HandyFoundation.m in Sources */,
+				25F950E5161568170017FE5E /* UIElementGeometry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

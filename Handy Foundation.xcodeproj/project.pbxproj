@@ -359,9 +359,12 @@
 		2550F6D114F3E56D000EAA23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Handy Foundation/Handy Foundation-Prefix.pch";
 				INFOPLIST_FILE = "Handy Foundation/Handy Foundation-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -370,9 +373,12 @@
 		2550F6D214F3E56D000EAA23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Handy Foundation/Handy Foundation-Prefix.pch";
 				INFOPLIST_FILE = "Handy Foundation/Handy Foundation-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -421,6 +427,7 @@
 				2550F6D214F3E56D000EAA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2550F6E914F4A448000EAA23 /* Build configuration list for PBXNativeTarget "Handy Foundation LogicTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +436,7 @@
 				2550F6EB14F4A448000EAA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

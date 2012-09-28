@@ -7,6 +7,17 @@ Handy Foundation add category to Foundation class and add some useful syntactic 
 
 This addition is really Ruby-style and breaks some Cocoa Naming Convensions. It is intended for myself to test. Use at your own risk.
 
+Features
+========
+
+- Syntactic sugar
+- Convinient functions and macros
+- Foundation enhancement
+
+Change History
+==============
+
+- (2012-09-29) Added some macros and functions for iPhone UI Elements.
 
 License
 =======
