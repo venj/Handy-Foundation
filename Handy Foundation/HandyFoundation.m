@@ -26,6 +26,19 @@
     return [self objectAtIndex:0];
 }
 
+- (NSString *)join:(NSString *)linkString {
+    NSMutableString *tmp = [[NSMutableString alloc] init];
+    [tmp appendString:[self objectAtIndex:0]];
+    for (NSInteger i = 1; i < [self count]; i++) {
+        id e = [self objectAtIndex:i];
+        if (![e isKindOfClass:[NSString class]]) {
+            return nil;
+        }
+        [tmp appendFormat:@"%@%@", linkString, e];
+    }
+    return tmp;
+}
+
 @end
 # pragma mark -
 
@@ -134,5 +147,25 @@
 @implementation NSMutableString (HandyFoundation)
 
 
+@end
+
+@implementation NSDictionary (HandyFoundation)
+- (NSString *)requestString {
+    NSMutableArray *tmpArray = [[NSMutableArray alloc] initWithCapacity:0];
+    for (id key in [self allKeys]) {
+        if ([key isKindOfClass:[NSString class]]) {
+            NSString *kv = [NSString stringWithFormat:@"%@=%@", key, [self objectForKey:key]];
+            [tmpArray addObject:[kv stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+        }
+        else {
+            return nil;
+        }
+    }
+    return [tmpArray join:@"&"];
+}
+
+- (NSData *)requestData {
+    return [[self requestString] dataUsingEncoding:NSUTF8StringEncoding];
+}
 @end
 

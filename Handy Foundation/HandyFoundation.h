@@ -17,6 +17,7 @@ typedef enum {
 - (NSUInteger) size;
 - (NSUInteger) length;
 - (id)firstObject;
+- (NSString *)join:(NSString *)linkString;
 @end
 
 @interface NSString (HandyFoundation)
@@ -43,4 +44,9 @@ typedef enum {
 
 @interface NSMutableString (HandyFoundation)
 
+@end
+
+@interface NSDictionary (HandyFoundation)
+- (NSString *)requestString;
+- (NSData *)requestData;
 @end
