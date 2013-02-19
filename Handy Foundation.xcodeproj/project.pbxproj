@@ -13,12 +13,16 @@
 		2550F6C714F3E56D000EAA23 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2550F6C514F3E56D000EAA23 /* Credits.rtf */; };
 		2550F6CA14F3E56D000EAA23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2550F6C914F3E56D000EAA23 /* AppDelegate.m */; };
 		2550F6CD14F3E56D000EAA23 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2550F6CB14F3E56D000EAA23 /* MainMenu.xib */; };
-		2550F6D514F3E5CC000EAA23 /* HandyFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2550F6D414F3E5CC000EAA23 /* HandyFoundation.m */; };
 		2550F6DE14F4A448000EAA23 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2550F6B614F3E56D000EAA23 /* Cocoa.framework */; };
 		2550F6E414F4A448000EAA23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2550F6E214F4A448000EAA23 /* InfoPlist.strings */; };
 		2550F6E714F4A448000EAA23 /* Handy_Foundation_LogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2550F6E614F4A448000EAA23 /* Handy_Foundation_LogicTests.m */; };
-		2550F6EC14F4A772000EAA23 /* HandyFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2550F6D414F3E5CC000EAA23 /* HandyFoundation.m */; };
 		2550F6EE14F4AD54000EAA23 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2550F6ED14F4AD54000EAA23 /* SenTestingKit.framework */; };
+		25C3E13716D31E8600DFEE9A /* NSString+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C3E13416D31E8600DFEE9A /* NSString+HFExtension.m */; };
+		25C3E13816D31E8600DFEE9A /* NSString+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C3E13416D31E8600DFEE9A /* NSString+HFExtension.m */; };
+		25C3E13D16D31F1C00DFEE9A /* NSArray+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C3E13A16D31F1B00DFEE9A /* NSArray+HFExtension.m */; };
+		25C3E13E16D31F1C00DFEE9A /* NSArray+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C3E13A16D31F1B00DFEE9A /* NSArray+HFExtension.m */; };
+		25C3E14316D31FAD00DFEE9A /* NSDictionary+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C3E14016D31FAD00DFEE9A /* NSDictionary+HFExtension.m */; };
+		25C3E14416D31FAD00DFEE9A /* NSDictionary+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C3E14016D31FAD00DFEE9A /* NSDictionary+HFExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +39,6 @@
 		2550F6C814F3E56D000EAA23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2550F6C914F3E56D000EAA23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2550F6CC14F3E56D000EAA23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		2550F6D314F3E5CC000EAA23 /* HandyFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandyFoundation.h; sourceTree = "<group>"; };
-		2550F6D414F3E5CC000EAA23 /* HandyFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandyFoundation.m; sourceTree = "<group>"; };
 		2550F6DB14F4A448000EAA23 /* Handy Foundation LogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Handy Foundation LogicTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2550F6E114F4A448000EAA23 /* Handy Foundation LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Handy Foundation LogicTests-Info.plist"; sourceTree = "<group>"; };
 		2550F6E314F4A448000EAA23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 		2550F6E614F4A448000EAA23 /* Handy_Foundation_LogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handy_Foundation_LogicTests.m; sourceTree = "<group>"; };
 		2550F6E814F4A448000EAA23 /* Handy Foundation LogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Handy Foundation LogicTests-Prefix.pch"; sourceTree = "<group>"; };
 		2550F6ED14F4AD54000EAA23 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		25C3E13316D31E8600DFEE9A /* NSString+HFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = "NSString+HFExtension.h"; path = "src/NSString+HFExtension.h"; sourceTree = SOURCE_ROOT; };
+		25C3E13416D31E8600DFEE9A /* NSString+HFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+HFExtension.m"; path = "src/NSString+HFExtension.m"; sourceTree = SOURCE_ROOT; };
+		25C3E13916D31F1B00DFEE9A /* NSArray+HFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = "NSArray+HFExtension.h"; path = "src/NSArray+HFExtension.h"; sourceTree = SOURCE_ROOT; };
+		25C3E13A16D31F1B00DFEE9A /* NSArray+HFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+HFExtension.m"; path = "src/NSArray+HFExtension.m"; sourceTree = SOURCE_ROOT; };
+		25C3E13F16D31FAD00DFEE9A /* NSDictionary+HFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = "NSDictionary+HFExtension.h"; path = "src/NSDictionary+HFExtension.h"; sourceTree = SOURCE_ROOT; };
+		25C3E14016D31FAD00DFEE9A /* NSDictionary+HFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+HFExtension.m"; path = "src/NSDictionary+HFExtension.m"; sourceTree = SOURCE_ROOT; };
+		25C3E14D16D320ED00DFEE9A /* HandyFoundation+AppKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = "HandyFoundation+AppKit.h"; path = "src/HandyFoundation+AppKit.h"; sourceTree = SOURCE_ROOT; };
+		25C3E15116D321BA00DFEE9A /* HandyFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; name = HandyFoundation.h; path = src/HandyFoundation.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +119,7 @@
 		2550F6BC14F3E56D000EAA23 /* Handy Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				2550F6D314F3E5CC000EAA23 /* HandyFoundation.h */,
-				2550F6D414F3E5CC000EAA23 /* HandyFoundation.m */,
+				25C3E15216D3222300DFEE9A /* HF */,
 				2550F6C814F3E56D000EAA23 /* AppDelegate.h */,
 				2550F6C914F3E56D000EAA23 /* AppDelegate.m */,
 				2550F6CB14F3E56D000EAA23 /* MainMenu.xib */,
@@ -149,6 +158,21 @@
 				2550F6E814F4A448000EAA23 /* Handy Foundation LogicTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25C3E15216D3222300DFEE9A /* HF */ = {
+			isa = PBXGroup;
+			children = (
+				25C3E15116D321BA00DFEE9A /* HandyFoundation.h */,
+				25C3E14D16D320ED00DFEE9A /* HandyFoundation+AppKit.h */,
+				25C3E13916D31F1B00DFEE9A /* NSArray+HFExtension.h */,
+				25C3E13A16D31F1B00DFEE9A /* NSArray+HFExtension.m */,
+				25C3E13316D31E8600DFEE9A /* NSString+HFExtension.h */,
+				25C3E13416D31E8600DFEE9A /* NSString+HFExtension.m */,
+				25C3E13F16D31FAD00DFEE9A /* NSDictionary+HFExtension.h */,
+				25C3E14016D31FAD00DFEE9A /* NSDictionary+HFExtension.m */,
+			);
+			name = HF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +219,7 @@
 		2550F6A914F3E56D000EAA23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Home;
 			};
 			buildConfigurationList = 2550F6AC14F3E56D000EAA23 /* Build configuration list for PBXProject "Handy Foundation" */;
@@ -260,7 +284,9 @@
 			files = (
 				2550F6C314F3E56D000EAA23 /* main.m in Sources */,
 				2550F6CA14F3E56D000EAA23 /* AppDelegate.m in Sources */,
-				2550F6D514F3E5CC000EAA23 /* HandyFoundation.m in Sources */,
+				25C3E13716D31E8600DFEE9A /* NSString+HFExtension.m in Sources */,
+				25C3E13D16D31F1C00DFEE9A /* NSArray+HFExtension.m in Sources */,
+				25C3E14316D31FAD00DFEE9A /* NSDictionary+HFExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +295,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2550F6E714F4A448000EAA23 /* Handy_Foundation_LogicTests.m in Sources */,
-				2550F6EC14F4A772000EAA23 /* HandyFoundation.m in Sources */,
+				25C3E13816D31E8600DFEE9A /* NSString+HFExtension.m in Sources */,
+				25C3E13E16D31F1C00DFEE9A /* NSArray+HFExtension.m in Sources */,
+				25C3E14416D31FAD00DFEE9A /* NSDictionary+HFExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +344,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -342,6 +374,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -361,6 +397,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Handy Foundation/Handy Foundation-Prefix.pch";
 				INFOPLIST_FILE = "Handy Foundation/Handy Foundation-Info.plist";
@@ -375,6 +412,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Handy Foundation/Handy Foundation-Prefix.pch";
 				INFOPLIST_FILE = "Handy Foundation/Handy Foundation-Info.plist";
@@ -387,6 +425,7 @@
 		2550F6EA14F4A448000EAA23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Handy Foundation LogicTests/Handy Foundation LogicTests-Prefix.pch";
@@ -399,6 +438,7 @@
 		2550F6EB14F4A448000EAA23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Handy Foundation LogicTests/Handy Foundation LogicTests-Prefix.pch";

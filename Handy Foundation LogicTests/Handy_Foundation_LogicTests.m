@@ -7,7 +7,7 @@
 //
 
 #import "Handy_Foundation_LogicTests.h"
-#import "HandyFoundation.h"
+#import "HandyFoundation+AppKit.h"
 
 @implementation Handy_Foundation_LogicTests
 

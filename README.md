@@ -14,9 +14,19 @@ Features
 - Convinient functions and macros
 - Foundation enhancement
 
+Build Docset
+============
+
+# Install `appledoc` use Homebrew or other package tool you like.
+# Run: 
+	cd Handy-Foundation
+	appledoc --project-name "Handy Foundation" --project-company "Suki Apps" --company-id "com.sukiapps" --output ~/Desktop/help src
+# Open Orgnizer in Xcode, you will see the documentation set.
+
 Change History
 ==============
 
+- (2013-02-19) Changed file orgnization way, move catagories into seperate files, and added appledoc comments.
 - (2012-09-29) Added some macros and functions for iPhone UI Elements.
 
 License

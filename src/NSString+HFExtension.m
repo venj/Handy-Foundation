@@ -1,49 +1,15 @@
 //
-//  HandyFoundation.m
+//  NSString+HFExtension.m
 //  Handy Foundation
 //
-//  Created by 朱 文杰 on 12-2-21.
-//  Copyright (c) 2012年 Home. All rights reserved.
+//  Created by venj on 13-2-19.
+//  Copyright (c) 2013年 Home. All rights reserved.
 //
 
-#import "HandyFoundation.h"
+#import "NSString+HFExtension.h"
+#import "NSArray+HFExtension.h"
 
-# pragma mark NSArray Catagory 
-@implementation NSArray (HandyFoundation)
-// Syntactic Sugar
-- (NSUInteger) size {
-    return [self count];
-}
-
-- (NSUInteger) length {
-    return [self count];
-}
-
-- (id)firstObject {
-    if ([self count] == 0) {
-        return nil; //Return nil here. 
-    }
-    return [self objectAtIndex:0];
-}
-
-- (NSString *)join:(NSString *)linkString {
-    NSMutableString *tmp = [[NSMutableString alloc] init];
-    [tmp appendString:[self objectAtIndex:0]];
-    for (NSInteger i = 1; i < [self count]; i++) {
-        id e = [self objectAtIndex:i];
-        if (![e isKindOfClass:[NSString class]]) {
-            return nil;
-        }
-        [tmp appendFormat:@"%@%@", linkString, e];
-    }
-    return tmp;
-}
-
-@end
-# pragma mark -
-
-# pragma mark NSString Catagory 
-@implementation NSString (HandyFoundation)
+@implementation NSString (HFExtension)
 // Syntactic Sugar
 - (NSString *)toUpper {
     return [self uppercaseString];
@@ -78,7 +44,7 @@
 }
 
 - (NSString *)baseName {
-    return [self lastPathComponent];
+    return [self baseNameWithExtension:YES];
 }
 
 // Enhancement.
@@ -103,13 +69,14 @@
     }
 }
 
-- (NSString *)baseNameWithoutExtension {
-    if ([[self pathExtension] isEqualToString:@""]) {
-        return [self lastPathComponent];
-    }
+- (NSString *)baseNameWithExtension:(BOOL)ext {
+    NSString *baseName = [self lastPathComponent];
+    if (ext) return baseName;
+    
+    if ([[self pathExtension] isEqualToString:@""])
+        return baseName;
     else {
         NSString *ext = [self pathExtension];
-        NSString *baseName = [self lastPathComponent];
         return [baseName substringToIndex:([baseName length] - [ext length] - 1)];
     }
 }
@@ -122,6 +89,7 @@
 }
 
 - (NSString *)charStringAtIndex:(NSUInteger)index {
+    if (index >= [self length]) return nil;
     return [self substringWithRange:NSMakeRange(index, 1)];
 }
 
@@ -141,31 +109,3 @@
 }
 
 @end
-# pragma mark -
-
-# pragma mark NSMutableString
-@implementation NSMutableString (HandyFoundation)
-
-
-@end
-
-@implementation NSDictionary (HandyFoundation)
-- (NSString *)requestString {
-    NSMutableArray *tmpArray = [[NSMutableArray alloc] initWithCapacity:0];
-    for (id key in [self allKeys]) {
-        if ([key isKindOfClass:[NSString class]]) {
-            NSString *kv = [NSString stringWithFormat:@"%@=%@", key, [self objectForKey:key]];
-            [tmpArray addObject:[kv stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
-        }
-        else {
-            return nil;
-        }
-    }
-    return [tmpArray join:@"&"];
-}
-
-- (NSData *)requestData {
-    return [[self requestString] dataUsingEncoding:NSUTF8StringEncoding];
-}
-@end
-
