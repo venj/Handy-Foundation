@@ -19,9 +19,10 @@ Build Docset
 
 1. Install `appledoc` use Homebrew or other package tool you like.
 2. Run: 
-
+	```bash
 	cd Handy-Foundation
 	appledoc --project-name "Handy Foundation" --project-company "Suki Apps" --company-id "com.sukiapps" --output ~/Desktop/help src
+	```
 
 3. Open Orgnizer in Xcode, you will see the documentation set.
 
