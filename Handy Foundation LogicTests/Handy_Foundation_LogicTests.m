@@ -79,7 +79,7 @@
     NSString *basename = [path baseName];
     STAssertEqualObjects(basename, @"SomeExtension.kext", @"Expect SomeExtension.kext, but get %@", basename);
     
-    basename = [path baseNameWithoutExtension];
+    basename = [path baseNameWithExtension:NO];
     STAssertEqualObjects(basename, @"SomeExtension", @"Expect SomeExtensiont, but get %@", basename);
     
     NSString *dirname = [path dirName];
