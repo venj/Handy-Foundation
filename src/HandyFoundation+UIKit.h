@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import "HandyFoundation"
+#import "HandyFoundation.h"
 #import "UIElementGeometry.h"
 #import "UIColor+HFExtension.h"

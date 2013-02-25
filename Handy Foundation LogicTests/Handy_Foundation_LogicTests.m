@@ -115,5 +115,13 @@
     STAssertEqualObjects(strippedString, @" \n \tThis is a \n really boring \t string", @"Expected string not match, get %@", strippedString);
 }
 
+- (void)testNSFileManagerUserDir {
+    NSString *home = NSHomeDirectory();
+    NSFileManager *fm = [NSFileManager defaultManager];
+    
+    STAssertEqualObjects([NSURL fileURLWithPath:[home stringByAppendingPathComponent:@"Documents"]], [fm userDocumentDirectory], @"User document directory is not set correctly.");
+    STAssertEqualObjects([NSURL fileURLWithPath:[home stringByAppendingPathComponent:@"Library"]], [fm userLibraryDirectory], @"User library directory is not set correctly.");
+    STAssertEqualObjects([NSURL fileURLWithPath:[[home stringByAppendingPathComponent:@"Library"] stringByAppendingPathComponent:@"Caches"]], [fm userCacheDirectory], @"User caches directory is not set correctly.");
+}
 
 @end

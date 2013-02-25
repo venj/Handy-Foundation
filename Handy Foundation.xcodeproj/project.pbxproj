@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250F99BD16DB275D004D3412 /* NSFileManager+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F99BA16DB275D004D3412 /* NSFileManager+HFExtension.m */; };
+		250F99BE16DB275D004D3412 /* NSFileManager+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F99BA16DB275D004D3412 /* NSFileManager+HFExtension.m */; };
 		2550F6B714F3E56D000EAA23 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2550F6B614F3E56D000EAA23 /* Cocoa.framework */; };
 		2550F6C114F3E56D000EAA23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2550F6BF14F3E56D000EAA23 /* InfoPlist.strings */; };
 		2550F6C314F3E56D000EAA23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2550F6C214F3E56D000EAA23 /* main.m */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		250F99B916DB275D004D3412 /* NSFileManager+HFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = "NSFileManager+HFExtension.h"; path = "src/NSFileManager+HFExtension.h"; sourceTree = SOURCE_ROOT; };
+		250F99BA16DB275D004D3412 /* NSFileManager+HFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+HFExtension.m"; path = "src/NSFileManager+HFExtension.m"; sourceTree = SOURCE_ROOT; };
 		2550F6B214F3E56D000EAA23 /* Handy Foundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handy Foundation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2550F6B614F3E56D000EAA23 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2550F6B914F3E56D000EAA23 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -171,6 +175,8 @@
 				25C3E13416D31E8600DFEE9A /* NSString+HFExtension.m */,
 				25C3E13F16D31FAD00DFEE9A /* NSDictionary+HFExtension.h */,
 				25C3E14016D31FAD00DFEE9A /* NSDictionary+HFExtension.m */,
+				250F99B916DB275D004D3412 /* NSFileManager+HFExtension.h */,
+				250F99BA16DB275D004D3412 /* NSFileManager+HFExtension.m */,
 			);
 			name = HF;
 			sourceTree = "<group>";
@@ -287,6 +293,7 @@
 				25C3E13716D31E8600DFEE9A /* NSString+HFExtension.m in Sources */,
 				25C3E13D16D31F1C00DFEE9A /* NSArray+HFExtension.m in Sources */,
 				25C3E14316D31FAD00DFEE9A /* NSDictionary+HFExtension.m in Sources */,
+				250F99BD16DB275D004D3412 /* NSFileManager+HFExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +305,7 @@
 				25C3E13816D31E8600DFEE9A /* NSString+HFExtension.m in Sources */,
 				25C3E13E16D31F1C00DFEE9A /* NSArray+HFExtension.m in Sources */,
 				25C3E14416D31FAD00DFEE9A /* NSDictionary+HFExtension.m in Sources */,
+				250F99BE16DB275D004D3412 /* NSFileManager+HFExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

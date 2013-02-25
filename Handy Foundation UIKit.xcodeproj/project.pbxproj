@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250F99C316DB28E2004D3412 /* NSFileManager+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F99C016DB28E1004D3412 /* NSFileManager+HFExtension.m */; };
+		250F99C416DB28E2004D3412 /* NSFileManager+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F99C016DB28E1004D3412 /* NSFileManager+HFExtension.m */; };
+		250F99C616DB2F45004D3412 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 250F99C516DB2F45004D3412 /* Default-568h@2x.png */; };
 		25C3E14C16D320C800DFEE9A /* UIColor+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C3E14A16D320C800DFEE9A /* UIColor+HFExtension.m */; };
 		25C3E15E16D3226700DFEE9A /* NSArray+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C3E15516D3226700DFEE9A /* NSArray+HFExtension.m */; };
 		25C3E15F16D3226700DFEE9A /* NSArray+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C3E15516D3226700DFEE9A /* NSArray+HFExtension.m */; };
@@ -43,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		250F99BF16DB28E1004D3412 /* NSFileManager+HFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = "NSFileManager+HFExtension.h"; path = "src/NSFileManager+HFExtension.h"; sourceTree = SOURCE_ROOT; };
+		250F99C016DB28E1004D3412 /* NSFileManager+HFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+HFExtension.m"; path = "src/NSFileManager+HFExtension.m"; sourceTree = SOURCE_ROOT; };
+		250F99C516DB2F45004D3412 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		25C3E14916D320C800DFEE9A /* UIColor+HFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = "UIColor+HFExtension.h"; path = "src/UIColor+HFExtension.h"; sourceTree = SOURCE_ROOT; };
 		25C3E14A16D320C800DFEE9A /* UIColor+HFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HFExtension.m"; path = "src/UIColor+HFExtension.m"; sourceTree = SOURCE_ROOT; };
 		25C3E15016D3211E00DFEE9A /* HandyFoundation+UIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; name = "HandyFoundation+UIKit.h"; path = "src/HandyFoundation+UIKit.h"; sourceTree = SOURCE_ROOT; };
@@ -104,6 +110,7 @@
 		25FDC93415072E2B00335C51 = {
 			isa = PBXGroup;
 			children = (
+				250F99C516DB2F45004D3412 /* Default-568h@2x.png */,
 				25FDC94915072E2B00335C51 /* Handy Foundation UIKit */,
 				25FDC96A15072E2C00335C51 /* Handy Foundation UIKitTests */,
 				25FDC94215072E2B00335C51 /* Frameworks */,
@@ -186,6 +193,8 @@
 				25C3E14A16D320C800DFEE9A /* UIColor+HFExtension.m */,
 				25C3E16816D322A700DFEE9A /* UIElementGeometry.h */,
 				25C3E16916D322A700DFEE9A /* UIElementGeometry.m */,
+				250F99BF16DB28E1004D3412 /* NSFileManager+HFExtension.h */,
+				250F99C016DB28E1004D3412 /* NSFileManager+HFExtension.m */,
 			);
 			name = HF;
 			sourceTree = "<group>";
@@ -277,6 +286,7 @@
 				25FDC94E15072E2B00335C51 /* InfoPlist.strings in Resources */,
 				25FDC95715072E2B00335C51 /* MainStoryboard_iPhone.storyboard in Resources */,
 				25FDC95A15072E2B00335C51 /* MainStoryboard_iPad.storyboard in Resources */,
+				250F99C616DB2F45004D3412 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +329,7 @@
 				25C3E16216D3226700DFEE9A /* NSDictionary+HFExtension.m in Sources */,
 				25C3E16616D3226700DFEE9A /* NSString+HFExtension.m in Sources */,
 				25C3E16C16D322A700DFEE9A /* UIElementGeometry.m in Sources */,
+				250F99C316DB28E2004D3412 /* NSFileManager+HFExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +342,7 @@
 				25C3E16316D3226700DFEE9A /* NSDictionary+HFExtension.m in Sources */,
 				25C3E16716D3226700DFEE9A /* NSString+HFExtension.m in Sources */,
 				25C3E16D16D322A700DFEE9A /* UIElementGeometry.m in Sources */,
+				250F99C416DB28E2004D3412 /* NSFileManager+HFExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

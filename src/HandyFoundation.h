@@ -11,3 +11,4 @@
 #import "NSString+HFExtension.h"
 #import "NSArray+HFExtension.h"
 #import "NSDictionary+HFExtension.h"
+#import "NSFileManager+HFExtension.h"
