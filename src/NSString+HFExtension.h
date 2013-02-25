@@ -53,7 +53,7 @@ typedef int HFSplitRule;
  */
 - (NSUInteger)count;
 
-/** @name Enhancements */
+/** @name Convinent Methods */
 
 /** This method is used to seperate a string into parts by some seperator characters.
  
