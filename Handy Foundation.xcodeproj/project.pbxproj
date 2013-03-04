@@ -25,6 +25,8 @@
 		25C3E13E16D31F1C00DFEE9A /* NSArray+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C3E13A16D31F1B00DFEE9A /* NSArray+HFExtension.m */; };
 		25C3E14316D31FAD00DFEE9A /* NSDictionary+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C3E14016D31FAD00DFEE9A /* NSDictionary+HFExtension.m */; };
 		25C3E14416D31FAD00DFEE9A /* NSDictionary+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C3E14016D31FAD00DFEE9A /* NSDictionary+HFExtension.m */; };
+		25EBF11E16E2EFE4006E090E /* NSWindow+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EBF11D16E2EFE4006E090E /* NSWindow+HFExtension.m */; };
+		25EBF11F16E2EFE4006E090E /* NSWindow+HFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EBF11D16E2EFE4006E090E /* NSWindow+HFExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		25C3E14016D31FAD00DFEE9A /* NSDictionary+HFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+HFExtension.m"; path = "src/NSDictionary+HFExtension.m"; sourceTree = SOURCE_ROOT; };
 		25C3E14D16D320ED00DFEE9A /* HandyFoundation+AppKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = "HandyFoundation+AppKit.h"; path = "src/HandyFoundation+AppKit.h"; sourceTree = SOURCE_ROOT; };
 		25C3E15116D321BA00DFEE9A /* HandyFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; name = HandyFoundation.h; path = src/HandyFoundation.h; sourceTree = SOURCE_ROOT; };
+		25EBF11C16E2EFE4006E090E /* NSWindow+HFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSWindow+HFExtension.h"; path = "src/NSWindow+HFExtension.h"; sourceTree = SOURCE_ROOT; };
+		25EBF11D16E2EFE4006E090E /* NSWindow+HFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSWindow+HFExtension.m"; path = "src/NSWindow+HFExtension.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +181,8 @@
 				25C3E14016D31FAD00DFEE9A /* NSDictionary+HFExtension.m */,
 				250F99B916DB275D004D3412 /* NSFileManager+HFExtension.h */,
 				250F99BA16DB275D004D3412 /* NSFileManager+HFExtension.m */,
+				25EBF11C16E2EFE4006E090E /* NSWindow+HFExtension.h */,
+				25EBF11D16E2EFE4006E090E /* NSWindow+HFExtension.m */,
 			);
 			name = HF;
 			sourceTree = "<group>";
@@ -294,6 +300,7 @@
 				25C3E13D16D31F1C00DFEE9A /* NSArray+HFExtension.m in Sources */,
 				25C3E14316D31FAD00DFEE9A /* NSDictionary+HFExtension.m in Sources */,
 				250F99BD16DB275D004D3412 /* NSFileManager+HFExtension.m in Sources */,
+				25EBF11E16E2EFE4006E090E /* NSWindow+HFExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +313,7 @@
 				25C3E13E16D31F1C00DFEE9A /* NSArray+HFExtension.m in Sources */,
 				25C3E14416D31FAD00DFEE9A /* NSDictionary+HFExtension.m in Sources */,
 				250F99BE16DB275D004D3412 /* NSFileManager+HFExtension.m in Sources */,
+				25EBF11F16E2EFE4006E090E /* NSWindow+HFExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
